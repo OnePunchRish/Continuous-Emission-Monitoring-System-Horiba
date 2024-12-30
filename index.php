@@ -1015,12 +1015,12 @@ method="post" action="contact_form_submit.php">
   <!-- Email -->
   <div class="d-flex align-items-center">
     <!-- Font Awesome envelope icon with mail link -->
-    <a href="mailto:horiba@goriba.com" style="font-size: 24px; color: #fff;" class="me-2">
+    <a href="mailto:horiba@horiba.com" style="font-size: 24px; color: #fff;" class="me-2">
       <i class="fas fa-envelope"></i>
     </a>
     <p class="mb-0">
       <a
-        href="mailto:horiba@goriba.com"
+        href="mailto:horiba@horiba.com"
         style="text-decoration: none; color: #fff;"
       >
         horiba@horiba.com
