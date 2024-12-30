@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Root Variables (Optional) */
+:root {
+    --brand-color: #478CD0;
+    --brand-color-dark: #3A75AA; /* A slightly darker shade if needed */
+}
+
+/* Global Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.cptlz
+{
+   text-transform:capitalize; 
+}
+
+/* Navbar */
+.navbar-brand-bg {
+    background-color: var(--brand-color) !important;
+}
+
+/* Primary Brand Button */
+.brand-btn {
+    background-color: var(--brand-color);
+    border-color: var(--brand-color);
+}
+.brand-btn:hover {
+    background-color: var(--brand-color-dark);
+    border-color: var(--brand-color-dark);
+}
+
+/* section headings */
+
+.brand-heading {
+  color: #478CD0;
+  font-weight: bold;
+}
+
+
+/* Outline Brand Button */
+.brand-btn-outline {
+    color: var(--brand-color);
+    border-color: var(--brand-color);
+}
+.brand-btn-outline:hover {
+    background-color: var(--brand-color);
+    color: #fff;
+    border-color: var(--brand-color);
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #f8f9fa;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Forms */
+.form-container {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-title .dot {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: var(--brand-color);
+  border-radius: 50%;
+
+  /* Animation */
+  animation: blinkDot 1s infinite ease-in-out;
+}
+
+/* Keyframes for blinking effect */
+@keyframes blinkDot {
+  0%, 100% {
+    opacity: 1;    /* Dot is fully visible */
+  }
+  50% {
+    opacity: 0;    /* Dot is invisible */
+  }
+}
+
+
+.benefits-section {
+  /* Reduce vertical padding */
+  padding-top: 2rem !important;
+  padding-bottom: 1.5rem !important;
+  background-color: #fff; /* Adjust if needed */
+}
+
+/* Heading styling */
+.benefits-heading {
+  text-align: center;
+  margin-bottom: 1.5rem; /* tighter space than mb-5 */
+  font-size: 1.5rem;     /* smaller than default h2 */
+  font-weight: bold;
+  color: #478CD0;        /* brand color */
+}
+
+/* Card wrapper */
+.benefit-card {
+  border: 2px solid #eee;
+  border-radius: 5px;
+  padding: 1rem;
+           
+}
+
+/* Icon/Image styling */
+.benefit-img {
+  max-width: 60px;       /* shrink icon size */
+  height: auto;
+}
+
+/* Title styling */
+.benefit-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+  color: #478CD0;
+}
+
+/* Description styling */
+.benefit-desc {
+  font-size: 0.9rem;     /* smaller text */
+  margin-bottom: 0;      /* remove extra space if desired */
+}
+
+
+/* Product Highlights */
+.product-highlight .product-title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #478CD0;
+}
+
+.product-highlight .product-subtitle {
+    font-size: 1.25rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.product-highlight .product-features {
+    padding-left: 1rem;
+}
+
+.smaller-product-image {
+  max-width: 70% !important;
+  height: auto !important;
+}
+
+
+.brand-separator {
+  border: 0;                 /* Remove default border style */
+  border-top: 2px solid #478CD0; /* Your brand color, thickness = 2px */
+  width: 100%;               /* Ensures full width */
+  margin: 0 auto;            /* Center horizontally if needed */
+}
+
+.styled-list {
+  list-style: none;        /* Remove default bullet dots */
+  padding-left: 0;         /* Remove left padding */
+  margin-bottom: 0;        /* Remove extra space below the list */
+}
+
+.styled-list li {
+  position: relative;
+  line-height: 2;        /* Increase line height */
+  margin-bottom: 0.75rem;  /* Slight spacing between items (optional) */
+}
+
+.list-icon {
+  color: #478CD0;          /* Brand color */
+  margin-right: 0.5rem;
+}
+
+
+
+/* FAQ Accordion */
+.faq .accordion-button {
+    font-weight: 500;
+}
+
+/* Contact Section */
+.contact-us .contact-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #478CD0;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+/* Footer */
+.footer {
+    background-color: var(--brand-color);
+    color: #fff;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9rem;
+}
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Utility */
+img {
+    max-width: 100%;
+    height: auto;
+}
