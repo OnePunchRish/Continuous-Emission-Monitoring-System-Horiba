@@ -121,7 +121,7 @@ $referrer_url = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; //
       <!-- LEFT COLUMN: Image + Text -->
       <div class="col-md-6 text-center text-md-start">
         <img 
-          src="images/hero.webp" 
+          src="images/hero-img.webp" 
           alt="Advanced XRF Analyzers" 
           class="img-fluid mb-3 hero-image" 
           style="max-width: 80%; height: auto;"
@@ -129,23 +129,14 @@ $referrer_url = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; //
         
         <h1 
           class="fw-bold mb-3" 
-          style="font-size: 2rem; line-height: 1.2;"
+          style="font-size: 2rem; line-height: 1.2; color: #478CD0;"
         >
         Continuous Emission Monitoring Systems (CEMS)
         </h1>
         
-        <p class="mb-3" style="font-size: 1.1rem;">
+        <p class="mb-3" style="font-size: 1.2rem; font-weight:600;">
         Optimize Plant Performance, Meet Environmental Compliance, and Ensure a Healthier
         Tomorrow
-        </p>
-        <p class="mb-3" style="font-size: 1rem;">
-        Continuous Emission Monitoring Systems (CEMS) by HORIBA offer innovative solutions for
-        real-time monitoring and management of pollutant emissions. Designed for a diverse range of
-        industries—from power plants to waste incinerators—CEMS ensures compliance with
-        environmental standards while optimizing operational efficiency.
-        With over 50 years of expertise and more than 100,000 systems installed worldwide, HORIBA
-        leads the way in emission monitoring technology, helping businesses transition to a
-        carbon-neutral society.
         </p>
       </div>
       
@@ -275,6 +266,25 @@ $referrer_url = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; //
 </section>
 <!-- END: Hero Section -->
 
+<!-- BEGIN: Introduction Section -->
+<section class="introduction-section py-5">
+            <div class="container">
+                <h2 class="text-center mb-3 brand-heading">HORIBA CEMS, the “Environmental Eye” for Source Emissions</h2>
+                <p style="line-height: 1.8; margin-bottom: 5px; text-align: center">
+                    <strong>Continuous Emission Monitoring Systems (CEMS)</strong> by HORIBA offer innovative solutions for
+                    real-time monitoring and management of pollutant emissions. Designed for a diverse range of
+                    industries—from <strong>power plants</strong> to <strong>waste incinerators</strong>—CEMS ensures compliance with
+                    environmental standards while optimizing operational efficiency.
+                </p>
+                 <p style="line-height: 1.8; margin-bottom: 0; text-align: center">
+                     With over <strong>50 years of expertise</strong> and more than 100,000 systems installed worldwide, HORIBA
+                     leads the way in <strong>emission monitoring technology</strong>, helping businesses transition to a
+                     carbon-neutral society.
+                </p>
+            </div>
+        </section>
+<!-- END: Introduction Section -->
+
 
     <!-- Benefits Section -->
   <!-- BEGIN: Why Choose HORIBA Section -->
@@ -350,21 +360,18 @@ $referrer_url = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; //
     <!-- Product 1 -->
     <div class="row g-5 align-items-center product-highlight mb-5">
       <div class="col-md-6">
-        <h3 class="product-title">TX-100</h3>
-        <h4 class="product-subtitle">Tunable Laser Gas Analyzer</h4>
-        <p class="product-description">
-        <strong>Specifications (Unique Features):</strong>
-        </p>
+        <h3 class="product-title">ENDA-5000</h3>
+        <h4 class="product-subtitle">Stack Gas Analysis System</h4>
         <ul class="product-features mb-4">
-          <li><strong>Measurement Range:</strong> HCl and H2O in process gas.</li>
-          <li><strong>Detection Principle:</strong>  Non-Dispersive Infrared (NDIR) with probe-type design</li>
-          <li><strong>Unique Capability:</strong> : Single flange installation with in-situ laser calibration mechanism</li>
-          <li><strong>Applications:</strong>  Flue gas analysis, HCl removal control, and process gas monitoring.<br><a href="#">Learn More</a></li>
+        <li><strong>Measurement Range:</strong> Simultaneous measurement of up to 5 components (NOx, SO2, CO, CO2, O2)</li>
+        <li><strong>Detection Principle:</strong> Non-Dispersive Infrared (NDIR) with magneto-pneumatic detection</li>
+        <li><strong>Unique Capability:</strong> Stable zero-point measurement with cross-flow modulated technology</li>
+        <li><strong>Applications:</strong> Emissions monitoring for boilers, incinerators, and power plants</li>
         </ul>
         <button class="btn btn-outline-primary brand-btn-outline" onclick="scrollToTop()">Learn More</button>
       </div>
       <div class="col-md-6 text-center">
-        <img src="images/14.webp" alt="XGT-9000SL Product Image" class="img-fluid smaller-product-image";>
+        <img src="images/15.webp" alt="XGT-9000SL Product Image" class="img-fluid smaller-product-image";>
       </div>
     </div>
 
@@ -373,20 +380,17 @@ $referrer_url = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; //
     <!-- Product 2 -->
     <div class="row g-5 align-items-center product-highlight mb-5">
       <div class="col-md-6 order-md-2">
-        <h3 class="product-title">ENDA-5000 series</h3>
-        <h4 class="product-subtitle">Stack Gas Analysis System</h4>
-        <p class="product-description">
-        <strong>Specifications (Unique Features):</strong>
-        </p>
+        <h3 class="product-title">GI-700</h3>
+        <h4 class="product-subtitle">Multi-Gas Analyzer</h4>
         <ul class="product-features mb-4">
-          <li><strong>Measurement Range:</strong> Simultaneous measurement of up to 5 components (NOx, SO2, CO, CO2, O2).</li>
-          <li><strong>Detection Principle:</strong> Non-Dispersive Infrared (NDIR) with magneto-pneumatic detection.</li>
-          <li><strong>Unique Capability:</strong> Stable zero-point measurement with cross-flow modulated technology.</li>
-          <li><strong>Applications:</strong> Emissions monitoring for boilers, incinerators, and power plants.<br><a href="#">Learn More</a></li>
+          <li><strong>Measurement Range:</strong> Simultaneous measurement of up to six gases, including NOx, SO2, CO, CO2, O2, and NH3.</li>
+          <li><strong>Detection Principle:</strong> Cross-modulated NDIR and NDUV.</li>
+          <li><strong>Unique Capability:</strong> Compact design with reduced power consumption by 50%.</li>
+          <li><strong>Applications:</strong> SCR control, desulfurization monitoring, and greenhouse gas analysis.
         </ul>
         <button class="btn btn-outline-primary brand-btn-outline" onclick="scrollToTop()">Learn More</button></div>
         <div class="col-md-6 order-md-1 text-center" padding: 20px;>
-        <img src="images/15.webp" alt="XGT-9000 Product Image" class="img-fluid smaller-product-image">
+        <img src="images/16.webp" alt="XGT-9000 Product Image" class="img-fluid smaller-product-image">
       </div>
       </div>
 
@@ -395,20 +399,17 @@ $referrer_url = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; //
     <!-- Product 3 -->
     <div class="row g-5 align-items-center product-highlight">
       <div class="col-md-6">
-        <h3 class="product-title">GI-700 series</h3>
-        <h4 class="product-subtitle">Stack Gas Analyzer</h4>
-        <p class="product-description">
-        <strong>Specifications (Unique Features):</strong>
-        </p>
+        <h3 class="product-title">PG-300</h3>
+        <h4 class="product-subtitle">Portable Gas Analyzer</h4>
         <ul class="product-features mb-4">
-          <li><strong>Measurement Range:</strong> Simultaneous measurement of up to six gases, including NOx, SO2, CO, CO2, O2, and NH3.</li>
-          <li><strong>Detection Principle:</strong> Cross-modulated NDIR and NDUV.</li>
-          <li><strong>Unique Capability:</strong> Compact design with reduced power consumption by 50%.</li>
-          <li><strong>Applications:</strong> SCR control, desulfurization monitoring, and greenhouse gas analysis.<br><a href="#">Learn More</a></li>
+          <li><strong>Measurement Range:</strong> Up to 5 gases, including CH4, N2O, CO, CO2, and O2.</li>
+          <li><strong>Detection Principle:</strong> Cross-Modulated Chemiluminescence Detection (CLD) and NDIR.</li>
+          <li><strong>Unique Capability:</strong> Lightweight and portable design with IP42 ingress protection option.</li>
+          <li><strong>Applications:</strong> Emission testing, catalyst performance evaluation, and process gas control.</li>
         </ul>
         <button class="btn btn-outline-primary brand-btn-outline" onclick="scrollToTop()">Learn More</button></div>
         <div class="col-md-6 text-center">
-        <img src="images/16.webp" alt="MESA-50 Product Image" class="img-fluid smaller-product-image">
+        <img src="images/13.webp" alt="MESA-50 Product Image" class="img-fluid smaller-product-image">
       </div>
       </div>
 
@@ -417,20 +418,17 @@ $referrer_url = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; //
     <!-- Product 4 -->
     <div class="row g-5 align-items-center product-highlight mb-5">
       <div class="col-md-6 order-md-2">
-        <h3 class="product-title">PG-300</h3>
-        <h4 class="product-subtitle">Portable Gas Analyzer</h4>
-        <p class="product-description">
-        <strong>Specifications (Unique Features):</strong>
-        </p>
+        <h3 class="product-title">TX-100</h3>
+        <h4 class="product-subtitle">Tunable Laser Gas Analyzer</h4>
         <ul class="product-features mb-4">
-          <li><strong>Measurement Range:</strong> Up to 5 gases, including CH4, N2O, CO, CO2, and O2.</li>
-          <li><strong>Detection Principle:</strong> : Cross-Modulated Chemiluminescence Detection (CLD) and NDIR.</li>
-          <li><strong>Unique Capability:</strong>  Lightweight and portable design with IP42 ingress protection option.</li>
-          <li><strong>Applications:</strong> Emission testing, catalyst performance evaluation, and process gas control.<br><a href="#">Learn More</a></li>
+          <li><strong>Measurement Range:</strong> HCl and H2O in process gas.</li>
+          <li><strong>Detection Principle:</strong>  Non-Dispersive Infrared (NDIR) with probe-type design.</li>
+          <li><strong>Unique Capability:</strong>  Single flange installation with in-situ laser calibration mechanism.</li>
+          <li><strong>Applications:</strong> Flue gas analysis, HCl removal control, and process gas monitoring.</li>
         </ul>
         <button class="btn btn-outline-primary brand-btn-outline" onclick="scrollToTop()">Learn More</button></div>
         <div class="col-md-6 text-center">
-        <img src="images/13.webp" alt="MESA-50 Product Image" class="img-fluid smaller-product-image">
+        <img src="images/14.webp" alt="MESA-50 Product Image" class="img-fluid smaller-product-image">
       </div>
       </div>
       
@@ -442,7 +440,7 @@ $referrer_url = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; //
 <!-- END: Products Section -->
 
 
-   <!-- BEGIN: Applications Section -->
+<!-- BEGIN: Applications Section -->
 <section id="applications" class="py-5 application-section"
   style="
     transform: scale(0.9);
@@ -507,204 +505,133 @@ $referrer_url = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; //
   </div>
 </section>
 <!-- END: Applications Section -->
-
-
-    <!-- FAQ Section -->
+ 
+<!-- FAQ Section -->
 <section class="faq py-5 bg-light">
-  <div class="container">
-    <h2 class="text-center mb-5 brand-heading">Frequently Asked Questions (FAQs)</h2>
-    <div class="accordion" id="faqAccordion">
+            <div class="container">
+                <h2 class="text-center mb-5 brand-heading">Frequently Asked Questions (FAQs)</h2>
+                <div class="accordion" id="faqAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="q1-heading">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#q1" aria-expanded="true" aria-controls="q1">1. What is a hematology analyzer, and how does it work?</button>
+                        </h2>
+                        <div id="q1" class="accordion-collapse collapse show" aria-labelledby="q1-heading" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                A hematology analyzer is a diagnostic tool used to perform Complete Blood Counts (CBC) and analyze various blood parameters such as 
+                    			white blood cells (WBCs), red blood cells (RBCs), hemoglobin levels, and platelets. It works by using advanced technologies like impedance, 
+                    			optical fluorescence, and flow cytometry to provide accurate and reliable results.
+                            </div>
+                        </div>
+                    </div>
 
-      <!-- FAQ #1 -->
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="q1-heading">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#q1"
-                  aria-expanded="true" aria-controls="q1">
-            1. What is X-ray Fluorescence (XRF) Analysis?
-          </button>
-        </h2>
-        <div id="q1" class="accordion-collapse collapse show" aria-labelledby="q1-heading" data-bs-parent="#faqAccordion">
-          <div class="accordion-body">
-            XRF is a non-destructive analytical technique used to identify the elements in a material and determine
-            their concentrations. It works by detecting the fluorescence X-ray signals emitted by a sample when
-            exposed to high-energy X-rays.
-          </div>
-        </div>
-      </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="q2-heading">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q2" aria-expanded="false" aria-controls="q2">2. What are the advantages of using automated hematology analyzers?</button>
+                        </h2>
+                        <div id="q2" class="accordion-collapse collapse" aria-labelledby="q2-heading" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                               Automated hematology analyzers improve efficiency and accuracy by reducing manual intervention. They offer fast turnaround times, 
+                    		   high throughput, extended parameters (e.g., 5-part WBC differential), and advanced data management features for seamless integration with laboratory workflows.
+                            </div>
+                        </div>
+                    </div>
 
-      <!-- FAQ #2 -->
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="q2-heading">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
-                  data-bs-target="#q2" aria-expanded="false" aria-controls="q2">
-            2. What types of samples can be analyzed with HORIBA XRF Analyzers?
-          </button>
-        </h2>
-        <div id="q2" class="accordion-collapse collapse" aria-labelledby="q2-heading" data-bs-parent="#faqAccordion">
-          <div class="accordion-body">
-            HORIBA XRF analyzers can handle a wide variety of samples, including:
-            <ul>
-              <li>Powders</li>
-              <li>Liquids</li>
-              <li>Solid fragments</li>
-              <li>Coatings</li>
-              <li>Thin films</li>
-              <li>Industrial components</li>
-            </ul>
-          </div>
-        </div>
-      </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="q3-heading">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q3" aria-expanded="false" aria-controls="q3">3. How much sample volume is required for testing?</button>
+                        </h2>
+                        <div id="q3" class="accordion-collapse collapse" aria-labelledby="q3-heading" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                HORIBA hematology analyzers require minimal sample volumes, such as 10 µL to 20 µL, depending on the model, 
+                    			making them suitable for pediatric and geriatric patients.
+                            </div>
+                        </div>
+                    </div>
 
-      <!-- FAQ #3 -->
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="q3-heading">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
-                  data-bs-target="#q3" aria-expanded="false" aria-controls="q3">
-            3. What are the advantages of using XRF analyzers for elemental analysis?
-          </button>
-        </h2>
-        <div id="q3" class="accordion-collapse collapse" aria-labelledby="q3-heading" data-bs-parent="#faqAccordion">
-          <div class="accordion-body">
-            XRF analyzers offer:
-            <ul>
-              <li>Non-destructive analysis</li>
-              <li>Detection of multiple elements simultaneously</li>
-              <li>Minimal sample preparation</li>
-              <li>Fast measurement times</li>
-              <li>High precision and repeatability</li>
-            </ul>
-          </div>
-        </div>
-      </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="q4-heading">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"  data-bs-target="#q4" aria-expanded="false" aria-controls="q4">4. What is a 3-part and 5-part differential in hematology?</button>
+                        </h2>
+                        <div id="q4" class="accordion-collapse collapse" aria-labelledby="q4-heading" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                A 3-part differential categorizes WBCs into three groups: lymphocytes, monocytes, and granulocytes. 
+                    			A 5-part differential provides a more detailed analysis, identifying neutrophils, eosinophils, basophils, lymphocytes, and monocytes.
+                            </div>
+                        </div>
+                    </div>
 
-      <!-- FAQ #4 -->
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="q4-heading">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#q4" aria-expanded="false" aria-controls="q4">
-            4. How does HORIBA’s XRF technology stand out?
-          </button>
-        </h2>
-        <div id="q4" class="accordion-collapse collapse" aria-labelledby="q4-heading" data-bs-parent="#faqAccordion">
-          <div class="accordion-body">
-            With a legacy in X-ray technologies since 1956, HORIBA’s XRF analyzers incorporate advanced
-            energy dispersive methods for superior sensitivity and accuracy. They are designed for
-            diverse applications, from industrial research to archaeology and forensics.
-          </div>
-        </div>
-      </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="q5-heading">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q5" aria-expanded="false" aria-controls="q5">5. Can HORIBA analyzers handle high-volume testing?</button>
+                        </h2>
+                        <div id="q5" class="accordion-collapse collapse" aria-labelledby="q5-heading" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Yes, models like the Yumizen H1500/H2500 in the HELO Solution are designed for high-throughput environments, processing over 120 samples per hour.
+                            </div>
+                        </div>
+                    </div>
 
-      <!-- FAQ #5 -->
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="q5-heading">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
-                  data-bs-target="#q5" aria-expanded="false" aria-controls="q5">
-            5. What industries benefit from HORIBA XRF Analyzers?
-          </button>
-        </h2>
-        <div id="q5" class="accordion-collapse collapse" aria-labelledby="q5-heading" data-bs-parent="#faqAccordion">
-          <div class="accordion-body">
-            HORIBA XRF analyzers are used in:
-            <ul>
-              <li>Fuel cell and lithium-ion battery research</li>
-              <li>Pharmaceutical quality control</li>
-              <li>Astrogeology and archaeology</li>
-              <li>Forensic investigations</li>
-              <li>Material science and R&D</li>
-            </ul>
-          </div>
-        </div>
-      </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="q6-heading">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"data-bs-target="#q6" aria-expanded="false" aria-controls="q6">6. What is a digital morphology analyzer?</button>
+                        </h2>
+                        <div id="q6" class="accordion-collapse collapse" aria-labelledby="q6-heading" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                               A digital morphology analyzer is a system that automates the microscopic analysis of blood and urine samples. 
+                               It uses robotics and AI to scan and classify cells, offering rapid, accurate, and consistent results.
+                            </div>
+                        </div>
+                    </div>
 
-      <!-- FAQ #6 -->
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="q6-heading">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#q6" aria-expanded="false" aria-controls="q6">
-            6. Can HORIBA XRF Analyzers detect light elements?
-          </button>
-        </h2>
-        <div id="q6" class="accordion-collapse collapse" aria-labelledby="q6-heading" data-bs-parent="#faqAccordion">
-          <div class="accordion-body">
-            Yes, HORIBA’s XRF analyzers are equipped to detect a broad range of elements, including
-            light elements such as sodium (Na) and magnesium (Mg), as well as heavy elements like uranium (U).
-          </div>
-        </div>
-      </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="q7-heading">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q7" aria-expanded="false" aria-controls="q7">7. How does the Yumizen D20 enhance diagnostic accuracy?</button>
+                        </h2>
+                        <div id="q7" class="accordion-collapse collapse" aria-labelledby="q7-heading" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                The Yumizen D20 uses AI-assisted technology to provide pre-classification of WBCs, RBCs, and platelets in peripheral blood smears, as well as urine sediment analysis. 
+                    			It minimizes human error and provides standardized reporting with visual evidence.
+                          </div>
+                        </div>
+                    </div>
 
-      <!-- FAQ #7 -->
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="q7-heading">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#q7" aria-expanded="false" aria-controls="q7">
-            7. How user-friendly are HORIBA XRF Analyzers?
-          </button>
-        </h2>
-        <div id="q7" class="accordion-collapse collapse" aria-labelledby="q7-heading" data-bs-parent="#faqAccordion">
-          <div class="accordion-body">
-            HORIBA XRF analyzers feature intuitive software interfaces, customizable layouts, and
-            advanced data analysis tools. They offer automated measurement options, multi-monitor support,
-            and seamless report generation.
-          </div>
-        </div>
-      </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="q8-heading">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q8" aria-expanded="false" aria-controls="q8">8. What are the benefits of AI-assisted digital microscopy?</button>
+                        </h2>
+                        <div id="q8" class="accordion-collapse collapse" aria-labelledby="q8-heading" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                AI-assisted systems improve efficiency, accuracy, and reproducibility. 
+                    			They enable remote access to digital reports, facilitate faster decision-making, and standardize sample quality checks.
+                            </div>
+                        </div>
+                    </div>
 
-      <!-- FAQ #8 -->
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="q8-heading">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#q8" aria-expanded="false" aria-controls="q8">
-            8. What additional features does the XGT-9000 series offer?
-          </button>
-        </h2>
-        <div id="q8" class="accordion-collapse collapse" aria-labelledby="q8-heading" data-bs-parent="#faqAccordion">
-          <div class="accordion-body">
-            The XGT-9000 series includes:
-            <ul>
-              <li>Dual detectors for fluorescent and transmission X-rays</li>
-              <li>High-resolution imaging capabilities</li>
-              <li>Flexible sample chamber accommodating various sample types</li>
-              <li>Advanced software modules for specific applications like RoHS screening and thickness measurement</li>
-            </ul>
-          </div>
-        </div>
-      </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="q9-heading">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q9" aria-expanded="false" aria-controls="q9">9. Can the Yumizen D20 integrate with my existing laboratory systems?</button>
+                        </h2>
+                        <div id="q9" class="accordion-collapse collapse" aria-labelledby="q9-heading" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Yes, it offers seamless integration with Laboratory Information Systems (LIS) and allows for remote report review, making it a flexible solution for modern labs.
+                            </div>
+                        </div>
+                    </div>
 
-      <!-- FAQ #9 -->
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="q9-heading">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#q9" aria-expanded="false" aria-controls="q9">
-            9. Are HORIBA XRF Analyzers portable?
-          </button>
-        </h2>
-        <div id="q9" class="accordion-collapse collapse" aria-labelledby="q9-heading" data-bs-parent="#faqAccordion">
-          <div class="accordion-body">
-            Yes, certain models in HORIBA’s XRF range are designed for portability, making them
-            suitable for on-site testing and fieldwork.
-          </div>
-        </div>
-      </div>
-
-      <!-- FAQ #10 -->
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="q10-heading">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#q10" aria-expanded="false" aria-controls="q10">
-            10. How do I request a demo or get a quote for a HORIBA XRF Analyzer?
-          </button>
-        </h2>
-        <div id="q10" class="accordion-collapse collapse" aria-labelledby="q10-heading" data-bs-parent="#faqAccordion">
-          <div class="accordion-body">
-            To learn more about HORIBA’s XRF analyzers or request pricing, please fill out the form on
-            this page, and our team will contact you shortly.
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="q10-heading">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q10" aria-expanded="false" aria-controls="q10">10. How do I request a demo or get a quote for a HORIBA Hematology Analyzer?</button>
+                        </h2>
+                        <div id="q10" class="accordion-collapse collapse" aria-labelledby="q10-heading" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                To learn more about HORIBA’s Hematology Analyzers or request pricing, please fill out the form on
+                                this page, and our team will contact you shortly.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     <!-- Contact Form Section -->
     <section id="contact-form" class="contact-us py-5">
@@ -731,7 +658,7 @@ $referrer_url = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; //
                 </div>
                 <div class="col-md-5 ms-auto">
                     <div class="form-container p-4 bg-white shadow-sm">
-                        <h3 class="form-title mb-3"><span class="dot"></span> Let us help you choose the right XRF analyzer</h3>
+                        <h3 class="form-title mb-3"><span class="dot"></span> Let us help you choose the right CEMS</h3>
                        <!-- BEGIN: Contact Form Section -->
 <form 
   aria-label="Contact Form" 
